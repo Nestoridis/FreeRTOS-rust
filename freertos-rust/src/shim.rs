@@ -2,6 +2,7 @@
 
 use crate::base::*;
 
+#[no_mangle]
 extern {
     pub fn freertos_rs_invoke_configASSERT();
     pub fn freertos_rs_vTaskStartScheduler() -> !;
